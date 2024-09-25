@@ -24,23 +24,30 @@ Before you begin, ensure you have met the following requirements:
 
 1. **Navigate to the backend directory**:
    ```bash
-cd backend
+      cd backend
 Open the backend files in your preferred code editor.
 
 Install the required packages by running:
-cd npm init
+
+       npm init
 
 Follow the prompts to create a package.json file, and then install any required JSON package by running:
 
+      npm install 
 
-npm install <package-name>  # Replace <package-name> with the actual package you need.
+
+      <package-name>  # Replace <package-name> with the actual package you need.
+
+
 Frontend Setup
 Open the project in Android Studio or your preferred IDE.
 
 Navigate to the Flutter project directory.
 
 Run the following command to install the required Flutter packages:
-flutter pub get
+
+      flutter pub get
 
 After the packages are installed, run the project:
-flutter run
+
+      flutter run
